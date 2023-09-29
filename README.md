@@ -15,10 +15,10 @@ O repositório contém os seguintes arquivos e diretórios:
 - `requirements.txt`: Este arquivo lista as dependências do Python necessárias para executar o aplicativo.
 
 ### Na pasta `client`:
-App next com demonstração de como utilizar o endpoint. Link da API: 
+App next com demonstração de como utilizar o endpoint.
 - `public`: Contém ativos estáticos, como imagens ou arquivos que podem ser servidos pelo lado do cliente.
 - `src`: Contém o código-fonte da aplicação do cliente, incluindo JavaScript e estilos.
-- Arquivos de Configuração: Pode haver arquivos de configuração JSON para a aplicação do cliente.
+- Arquivos de Configuração: Arquivos de configuração JSON para a aplicação do cliente.
 
 ## Código do Lado do Servidor
 
@@ -28,7 +28,7 @@ Este é o aplicativo principal do Flask que expõe um ponto de extremidade para 
 
 #### EndPoints:
 
-- `POST https://genanki-server.onrender.com/converter: Aceita uma solicitação POST com dados de flashcards, cria um deck do Anki e retorna o arquivo de pacote Anki gerado (.apkg) para download.
+- `POST https://genanki-server.onrender.com/converter`: Aceita uma solicitação POST com dados de flashcards, cria um deck do Anki e retorna o arquivo de pacote Anki gerado (.apkg) para download.
 #### Dependências Principais:
 
 - Flask: Usado para criar a API REST.
@@ -53,7 +53,7 @@ Este módulo contém funções para criar flashcards, decks e exportá-los para 
 
 #### Dependências:
 
-- Genanki: Uma biblioteca para gerar decks do Anki programaticamente.
+- Genanki: Uma biblioteca em Python para gerar decks do Anki programaticamente.
 
 ## Código do Lado do Cliente
 
